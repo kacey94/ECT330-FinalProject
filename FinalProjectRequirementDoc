@@ -1,0 +1,26 @@
+Team B:
+Karen Cardenas
+Roberto Despoiu
+Alexander Alvarez
+
+1) 
+Company Name: GearUP
+
+2)
+
+3)
+Schemas:
+
+Customer( FirstName, LastName, ID, Address:string, City:string, St:string(2), Zip:int, email:string, UserName, Password, NewsLetter)
+Primary key: ID
+Products(ProductID, Stock:int, PName:string, PDescription:string, Price:int)
+Primary key: ProductID
+Orders(OrderID, CID, OrderDate, PID, Quantity:int, PPrice, TPric)e
+	Primary Key: OrderID
+	Foreign key: CID from Customer ID; PID from Products ProductID; PPrice from Products Price
+
+4)
+
+5)
+
+6)
